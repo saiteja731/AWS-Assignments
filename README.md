@@ -1,6 +1,8 @@
 # AWS Cloud Computing Assignments
 
-This repository contains AWS cloud computing assignments covering EC2, EBS, EFS, and AMI management. All assignments are This repository contains comprehensive AWS cloud computing assignments covering EC2, EBS, EFS, IAM, and CloudWatch management. All assignments are documented with step-by-step procedures, practical implementations, and detailed screenshots.t
+This repository contains AWS cloud computing assignments covering EC2, EBS, EFS, and AMI management. All assignments are This repository contains comprehensive AWS cloud computing assignments covering EC2, EBS, EFS, IAM, and CloudWatch management. All assignments are documented with step-by-step procedures, practical implementations, and detailed screenshots.
+
+  ---
 **File:** `Case-Study.pdf`
 
 **Objective:** Implement secure web servers on Linux using AWS EC2 instances, manage AMIs across regions, and handle EBS volumes.
@@ -53,89 +55,6 @@ This repository contains AWS cloud computing assignments covering EC2, EBS, EFS,
 - Auto-scaling mount targets
 
 ---
-
-## 🛠️ Tools & Technologies
-
-- **AWS Management Console**
-- **AWS CLI** (where applicable)
-- **Linux Terminal** (Ubuntu, Amazon Linux, Red Hat)
-- **NFS (Network File System)**
-- **VPC & Security Groups**
-
-## 📚 Learning Outcomes
-
-After completing these assignments, you will understand:
-
-1. **EC2 Management**
-   - Launching and configuring EC2 instances
-   - Understanding instance types and key pairs
-   - Managing security groups and network access
-
-2. **AMI & Image Management**
-   - Creating custom AMIs from running instances
-   - Copying AMIs across AWS regions
-   - Launching instances from custom AMIs
-
-3. **Storage Solutions**
-   - EBS volumes - block-level storage
-   - EFS - shared file system storage
-   - Snapshots and backups
-   - Volume scaling and management
-
-4. **Multi-Region & Multi-Instance Architecture**
-   - Replicating infrastructure across regions
-   - Managing resources in multiple regions
-   - Ensuring high availability
-
-5. **Networking & Access Control**
-   - Security group configuration
-   - Inbound/outbound rules
-   - VPC management
-
-## 📁 Repository Structure
-
-```
-AWS-Assignments/
-├── README.md
-├── Case-Study.pdf (Assignment 1 - EC2, AMI, EBS)
-└── Assignment.pdf (Assignment 2 - EFS Multi-Instance)
-├── Assignment-3-IAM/         (IAM Users, Groups, Policies, Roles & CloudWatch)
-├── CloudWatch-Alarms-Assignment---5.pdf
-├── CloudWatch-Dashboard-Assignment---4.pdf
-├── IAM-Policies-Assignment---2.pdf
-├── IAM-Roles-Assignment---3.pdf
-└── IAM-Users-Assignment-1.pdf
-```
-
-## ✅ Completion Checklist
-
-### Assignment 1:
-- [x] Created EC2 instance in US-East-1 (N. Virginia)
-- [x] Created custom AMI from instance
-- [x] Copied AMI to US-West-2 (Oregon)
-- [x] Launched instance in Oregon from copied AMI
-- [x] Created and attached 2 EBS volumes
-- [x] Detached and deleted one volume
-- [x] Extended remaining volume size
-- [x] Created EBS snapshots for backup
-
-### Assignment 2:
-- [x] Created EFS file system
-- [x] Launched 3 EC2 instances (Ubuntu, Amazon Linux, Red Hat)
-- [x] Mounted EFS on all instances
-- [x] Verified file synchronization across instances
-- [x] Demonstrated shared storage functionalit
-
-### Assignment 3:
-
-- [x] Created IAM users with different access levels
-- [x] Configured IAM groups for role-based access
-- [x] Created and attached IAM policies
-- [x] Set up IAM roles for EC2 instances
-- [x] Configured CloudWatch dashboards
-- [x] Created CloudWatch alarms
-- [x] Tested SNS notifications for alarms
-
 ### Assignment 3: IAM (Identity & Access Management) & CloudWatch
 
 **Files:**
@@ -184,6 +103,7 @@ AWS-Assignments/
 - CloudWatch custom metrics and alarms
 - Multi-level monitoring and alerting strategies
 - Security best practices for AWS accounts
+
 ## 🔑 Key Learnings
 
 1. **Scalability**: Both EBS and EFS allow scaling, but EFS provides automatic scaling without intervention
@@ -191,6 +111,106 @@ AWS-Assignments/
 3. **Cost Optimization**: Understanding trade-offs between EBS and EFS for different use cases
 4. **Regional Architecture**: Best practices for multi-region deployments
 5. **Security**: Proper security group configuration for accessing shared resources
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **AWS Management Console** - Web-based interface for AWS resource management
+- **AWS CLI** - Command-line interface for AWS operations and automation
+- **AWS IAM (Identity & Access Management)** - User, group, role, and policy management
+- **AWS CloudWatch** - Monitoring, logging, dashboards, and alerting service
+- **AWS SNS (Simple Notification Service)** - Push notifications and email alerts
+- **Amazon EC2** - Elastic Compute Cloud for virtual instances
+- **Amazon EBS** - Elastic Block Store for persistent block-level volumes
+- **Amazon EFS** - Elastic File System for shared NFS-based storage
+- **VPC & Security Groups** - Virtual networking and firewall management
+- **Linux Terminal** - Ubuntu 24.04 LTS, Amazon Linux 2023, Red Hat Enterprise Linux 10
+- **NFS (Network File System)** - Network protocol for file sharing across instances
+
+
+## 📚 Learning Outcomes
+
+After completing these assignments, you will understand:
+
+1. **EC2 Management**
+   - Launching and configuring EC2 instances
+   - Understanding instance types and key pairs
+   - Managing security groups and network access
+
+2. **AMI & Image Management**
+   - Creating custom AMIs from running instances
+   - Copying AMIs across AWS regions
+   - Launching instances from custom AMIs
+
+3. **Storage Solutions**
+   - EBS volumes - block-level storage
+   - EFS - shared file system storage
+   - Snapshots and backups
+   - Volume scaling and management
+
+4. **Multi-Region & Multi-Instance Architecture**
+   - Replicating infrastructure across regions
+   - Managing resources in multiple regions
+   - Ensuring high availability
+
+5. **Networking & Access Control**
+   - Security group configuration
+   - Inbound/outbound rules
+   - VPC management
+     
+6. **IAM & CloudWatch Management**
+   - Creating and managing IAM users, groups, and roles
+   - Understanding IAM policies and permissions
+   - Setting up CloudWatch monitoring and dashboards
+   - Creating CloudWatch alarms and SNS notifications
+   - Implementing security best practices
+
+## 📁 Repository Structure
+
+```
+AWS-Assignments/
+├── README.md
+├── Case-Study.pdf (Assignment 1 - EC2, AMI, EBS)
+└── Assignment.pdf (Assignment 2 - EFS Multi-Instance)
+├── Assignment-3-IAM/         (IAM Users, Groups, Policies, Roles & CloudWatch)
+├── CloudWatch-Alarms-Assignment---5.pdf
+├── CloudWatch-Dashboard-Assignment---4.pdf
+├── IAM-Policies-Assignment---2.pdf
+├── IAM-Roles-Assignment---3.pdf
+└── IAM-Users-Assignment-1.pdf
+```
+
+## ✅ Completion Checklist
+
+### Assignment 1:
+- [x] Created EC2 instance in US-East-1 (N. Virginia)
+- [x] Created custom AMI from instance
+- [x] Copied AMI to US-West-2 (Oregon)
+- [x] Launched instance in Oregon from copied AMI
+- [x] Created and attached 2 EBS volumes
+- [x] Detached and deleted one volume
+- [x] Extended remaining volume size
+- [x] Created EBS snapshots for backup
+
+### Assignment 2:
+- [x] Created EFS file system
+- [x] Launched 3 EC2 instances (Ubuntu, Amazon Linux, Red Hat)
+- [x] Mounted EFS on all instances
+- [x] Verified file synchronization across instances
+- [x] Demonstrated shared storage functionalit
+
+### Assignment 3:
+
+- [x] Created IAM users with different access levels
+- [x] Configured IAM groups for role-based access
+- [x] Created and attached IAM policies
+- [x] Set up IAM roles for EC2 instances
+- [x] Configured CloudWatch dashboards
+- [x] Created CloudWatch alarms
+- [x] Tested SNS notifications for alarms
+
+
 
 ## 📖 References
 
@@ -202,8 +222,7 @@ AWS-Assignments/
 ## 👤 Author
 
 **Chatha Sai Teja**
-- B.Tech Cybersecurity Student
 - AWS Cloud Aspirant
-- GitHub: [@saiteja731](https://github.com/saiteja731)
+
 
 ---
