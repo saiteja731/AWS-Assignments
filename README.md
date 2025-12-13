@@ -147,6 +147,3 @@ AWS-Assignments/
 - GitHub: [@saiteja731](https://github.com/saiteja731)
 
 ---
-
-*Last Updated: December 2025*
-*Status: All assignments completed ✅*
