@@ -124,8 +124,66 @@ AWS-Assignments/
 - [x] Launched 3 EC2 instances (Ubuntu, Amazon Linux, Red Hat)
 - [x] Mounted EFS on all instances
 - [x] Verified file synchronization across instances
-- [x] Demonstrated shared storage functionality
+- [x] Demonstrated shared storage functionalit
 
+### Assignment 3:
+
+- [x] Created IAM users with different access levels
+- [x] Configured IAM groups for role-based access
+- [x] Created and attached IAM policies
+- [x] Set up IAM roles for EC2 instances
+- [x] Configured CloudWatch dashboards
+- [x] Created CloudWatch alarms
+- [x] Tested SNS notifications for alarms
+
+### Assignment 3: IAM (Identity & Access Management) & CloudWatch
+
+**Files:**
+- `IAM-Users-Assignment-1.pdf`
+- `IAM-Policies-Assignment---2.pdf`
+- `IAM-Roles-Assignment---3.pdf`
+- `CloudWatch-Dashboard-Assignment---4.pdf`
+- `CloudWatch-Alarms-Assignment---5.pdf`
+
+**Objective:** Set up a comprehensive IAM structure with users, groups, roles, and policies. Configure CloudWatch for monitoring and alerting.
+
+**Topics Covered:**
+
+- **IAM Users Management:**
+  - Creating IAM users with different access levels
+  - Setting up console and programmatic access
+  - Managing user credentials and access keys
+
+- **IAM Groups & Policies:**
+  - Creating user groups for role-based access control
+  - Attaching managed and custom policies
+  - Understanding policy documents and permissions
+
+- **IAM Roles:**
+  - Creating roles for EC2 instances
+  - Configuring trust relationships
+  - Attaching policies to roles
+
+- **CloudWatch Monitoring:**
+  - Creating custom dashboards
+  - Setting up CloudWatch alarms
+  - Configuring SNS notifications
+  - Monitoring EC2 instance metrics
+
+**Key AWS Services Used:**
+
+- AWS IAM (Identity & Access Management)
+- AWS CloudWatch (Monitoring & Logging)
+- AWS SNS (Simple Notification Service)
+- AWS EC2 (for testing IAM roles)
+
+**Key Features Demonstrated:**
+
+- Principle of least privilege in IAM
+- Role-based access control (RBAC)
+- CloudWatch custom metrics and alarms
+- Multi-level monitoring and alerting strategies
+- Security best practices for AWS accounts
 ## 🔑 Key Learnings
 
 1. **Scalability**: Both EBS and EFS allow scaling, but EFS provides automatic scaling without intervention
