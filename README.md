@@ -1,10 +1,6 @@
 # AWS Cloud Computing Assignments
 
-This repository contains AWS cloud computing assignments covering EC2, EBS, EFS, and AMI management. All assignments are documented with step-by-step procedures and screenshots.
-
-## 📋 Assignments Overview
-
-### Assignment 1: EC2, AMI, and EBS Management
+This repository contains AWS cloud computing assignments covering EC2, EBS, EFS, and AMI management. All assignments are This repository contains comprehensive AWS cloud computing assignments covering EC2, EBS, EFS, IAM, and CloudWatch management. All assignments are documented with step-by-step procedures, practical implementations, and detailed screenshots.t
 **File:** `Case-Study.pdf`
 
 **Objective:** Implement secure web servers on Linux using AWS EC2 instances, manage AMIs across regions, and handle EBS volumes.
@@ -103,6 +99,12 @@ AWS-Assignments/
 ├── README.md
 ├── Case-Study.pdf (Assignment 1 - EC2, AMI, EBS)
 └── Assignment.pdf (Assignment 2 - EFS Multi-Instance)
+├── Assignment-3-IAM/         (IAM Users, Groups, Policies, Roles & CloudWatch)
+├── CloudWatch-Alarms-Assignment---5.pdf
+├── CloudWatch-Dashboard-Assignment---4.pdf
+├── IAM-Policies-Assignment---2.pdf
+├── IAM-Roles-Assignment---3.pdf
+└── IAM-Users-Assignment-1.pdf
 ```
 
 ## ✅ Completion Checklist
