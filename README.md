@@ -114,10 +114,46 @@ This repository contains AWS cloud computing assignments covering EC2, EBS, EFS,
 
 ---
 
+### Assignment 4: ELB, ASG, and Route 53
+
+**File:** `Case-Study-ELB-ASG-Route-53.pdf`
+
+**Objective:** Implement auto-scaling infrastructure with load balancing for XYZ Corporation to handle increasing application demand while optimizing infrastructure costs.
+
+**Topics Covered:**
+
+- [x] Auto Scaling Group (ASG) Creation and Configuration
+- [x] Launch Templates for EC2 instances
+- [x] Dynamic Scaling Policies (Target Tracking)
+- [x] Elastic Load Balancer (ALB/NLB) Integration
+- [x] Target Group Configuration
+- [x] Route 53 DNS Configuration (Optional)
+- [x] CloudWatch Metrics and Monitoring
+- [x] Auto-healing and Instance Replacement
+
+**Key AWS Services Used:**
+
+- Amazon EC2 (Elastic Compute Cloud)
+- Auto Scaling Groups (ASG)
+- Elastic Load Balancer (ALB/NLB)
+- CloudWatch (Monitoring and Metrics)
+- Route 53 (DNS Management)
+- VPC and Security Groups
+
+**Key Features Demonstrated:**
+
+- Automatic instance scaling based on CPU utilization
+- Load distribution across multiple instances
+- High availability across multiple Availability Zones
+- Self-healing capabilities with automatic instance replacement
+- Cost optimization through dynamic resource allocation
+- Target Tracking scaling policies for intelligent resource management
+
+---
+
 ## 🛠️ Tools & Technologies
 
 - **AWS Management Console** - Web-based interface for AWS resource management
-- **AWS CLI** - Command-line interface for AWS operations and automation
 - **AWS IAM (Identity & Access Management)** - User, group, role, and policy management
 - **AWS CloudWatch** - Monitoring, logging, dashboards, and alerting service
 - **AWS SNS (Simple Notification Service)** - Push notifications and email alerts
@@ -126,7 +162,10 @@ This repository contains AWS cloud computing assignments covering EC2, EBS, EFS,
 - **Amazon EFS** - Elastic File System for shared NFS-based storage
 - **VPC & Security Groups** - Virtual networking and firewall management
 - **Linux Terminal** - Ubuntu 24.04 LTS, Amazon Linux 2023, Red Hat Enterprise Linux 10
-- **NFS (Network File System)** - Network protocol for file sharing across instances
+- **AWS Elastic Load Balancer (ALB/NLB)** – Application and network load balancing
+- **AWS Auto Scaling** – Dynamic resource scaling based on demand
+- **AWS Route 53** – Domain name system and traffic routing
+
 
 
 ## 📚 Learning Outcomes
@@ -166,6 +205,13 @@ After completing these assignments, you will understand:
    - Creating CloudWatch alarms and SNS notifications
    - Implementing security best practices
 
+7. **Load Balancing & Auto Scaling**
+   - Understanding Elastic Load Balancer (ALB & NLB) functionality
+   - Implementing Auto Scaling Groups for dynamic resource management
+   - Configuring scaling policies based on metrics
+   - DNS routing with Route 53
+   - Cost optimization through auto-scaling
+
 ## 📁 Repository Structure
 
 ```
@@ -179,6 +225,9 @@ AWS-Assignments/
 ├── IAM-Policies-Assignment---2.pdf
 ├── IAM-Roles-Assignment---3.pdf
 └── IAM-Users-Assignment-1.pdf
+|___ Assignment-4-ELB-ASG/ (ELB, ASG, Route 53)
+    |___ README.md
+    |___ Case-Study-–-ELB-ASG-Route-53_ 3.pdf
 ```
 
 ## ✅ Completion Checklist
@@ -219,43 +268,7 @@ AWS-Assignments/
 - [x] Target Group Configuration
 - [x] Route 53 DNS Configuration (Optional)
 - [x] CloudWatch Metrics and Monitoring
-
-
-
-### Assignment 4: ELB, ASG, and Route 53
-
-**File:** `Case-Study-ELB-ASG-Route-53.pdf`
-
-**Objective:** Implement auto-scaling infrastructure with load balancing for XYZ Corporation to handle increasing application demand while optimizing infrastructure costs.
-
-**Topics Covered:**
-
-- [x] Auto Scaling Group (ASG) Creation and Configuration
-- [x] Launch Templates for EC2 instances
-- [x] Dynamic Scaling Policies (Target Tracking)
-- [x] Elastic Load Balancer (ALB/NLB) Integration
-- [x] Target Group Configuration
-- [x] Route 53 DNS Configuration (Optional)
-- [x] CloudWatch Metrics and Monitoring
-- [x] Auto-healing and Instance Replacement
-
-**Key AWS Services Used:**
-
-- Amazon EC2 (Elastic Compute Cloud)
-- Auto Scaling Groups (ASG)
-- Elastic Load Balancer (ALB/NLB)
-- CloudWatch (Monitoring and Metrics)
-- Route 53 (DNS Management)
-- VPC and Security Groups
-
-**Key Features Demonstrated:**
-
-- Automatic instance scaling based on CPU utilization
-- Load distribution across multiple instances
-- High availability across multiple Availability Zones
-- Self-healing capabilities with automatic instance replacement
-- Cost optimization through dynamic resource allocation
-- Target Tracking scaling policies for intelligent resource management
+---
 
 ## 📖 References
 
@@ -263,6 +276,10 @@ AWS-Assignments/
 - [Amazon EBS Documentation](https://docs.aws.amazon.com/ebs/)
 - [Amazon EFS Documentation](https://docs.aws.amazon.com/efs/)
 - [AWS AMI Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)
+- [Elastic Load Balancer Documentation](https://docs.aws.amazon.com/elasticloadbalancing/)
+- [Auto Scaling Documentation](https://docs.aws.amazon.com/autoscaling/)
+- [Route 53 Documentation](https://docs.aws.amazon.com/route53/)
+- [CloudWatch Documentation](https://docs.aws.amazon.com/cloudwatch/)
 
 ## 👤 Author
 
