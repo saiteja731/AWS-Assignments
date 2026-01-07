@@ -210,7 +210,52 @@ AWS-Assignments/
 - [x] Created CloudWatch alarms
 - [x] Tested SNS notifications for alarms
 
+## Assignment 4:
 
+- [x] Auto Scaling Group (ASG) Creation and Configuration
+- [x] Launch Templates for EC2 instances
+- [x] Dynamic Scaling Policies (Target Tracking)
+- [x] Elastic Load Balancer (ALB/NLB) Integration
+- [x] Target Group Configuration
+- [x] Route 53 DNS Configuration (Optional)
+- [x] CloudWatch Metrics and Monitoring
+
+
+
+### Assignment 4: ELB, ASG, and Route 53
+
+**File:** `Case-Study-ELB-ASG-Route-53.pdf`
+
+**Objective:** Implement auto-scaling infrastructure with load balancing for XYZ Corporation to handle increasing application demand while optimizing infrastructure costs.
+
+**Topics Covered:**
+
+- [x] Auto Scaling Group (ASG) Creation and Configuration
+- [x] Launch Templates for EC2 instances
+- [x] Dynamic Scaling Policies (Target Tracking)
+- [x] Elastic Load Balancer (ALB/NLB) Integration
+- [x] Target Group Configuration
+- [x] Route 53 DNS Configuration (Optional)
+- [x] CloudWatch Metrics and Monitoring
+- [x] Auto-healing and Instance Replacement
+
+**Key AWS Services Used:**
+
+- Amazon EC2 (Elastic Compute Cloud)
+- Auto Scaling Groups (ASG)
+- Elastic Load Balancer (ALB/NLB)
+- CloudWatch (Monitoring and Metrics)
+- Route 53 (DNS Management)
+- VPC and Security Groups
+
+**Key Features Demonstrated:**
+
+- Automatic instance scaling based on CPU utilization
+- Load distribution across multiple instances
+- High availability across multiple Availability Zones
+- Self-healing capabilities with automatic instance replacement
+- Cost optimization through dynamic resource allocation
+- Target Tracking scaling policies for intelligent resource management
 
 ## 📖 References
 
